@@ -65,14 +65,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("maven") {
-                groupId = "com.covalent.mobileframework"
-                artifactId = "mobileframework"
-                version = "1.0.0"
-            }
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.covalent.mobileframework"
+            artifactId = "mobileframework"
+            version = "1.0.0"
         }
     }
 }
