@@ -70,7 +70,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.covalent.mobileframework"
             artifactId = "mobileframework"
-            version = "1.0.0"
+            version = "1.0.6"
         }
     }
 }
